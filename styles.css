@@ -1,0 +1,108 @@
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  width: 400px;
+  height: 800px;
+}
+
+#card {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 10px rgba(101, 100, 141, 0.5);
+}
+
+.ribbon {
+  width: 200px;
+  height: 50px;
+  position: absolute;
+}
+
+.ribbon-1 {
+  background: linear-gradient(to right, #eecfe7, #eecfe7 79%, #f068d1 99%);
+  top: 491px;
+  right: 0;
+  left: -41px;
+  transform: rotate(176deg) translate(99%, 554%);
+  width: 3773px;
+  height: 98px;
+  position: fixed;
+  z-index: 6;
+  transform-origin: bottom right;
+  box-shadow: -1px -6px 15px lightgrey;
+}
+
+.ribbon-1:before {
+  content: '';
+  position: absolute;
+  top: -13px;
+  right: 21px;
+  bottom: 101px;
+  border-left: 16px solid #7b0564;
+  border-top: -35px solid #6a0b06;
+  border-bottom: 25px solid transparent;
+  transform: rotate(-90deg) translate(49%, 69%);
+}
+
+.ribbon-2 {
+  top: 805px;
+  right: 0;
+  left: -41px;
+  transform: rotate(208deg) translate(-296%, 554%);
+  width: 100px;
+  height: 98px;
+  position: fixed;
+  z-index: -7;
+  transform-origin: bottom left;
+}
+
+.ribbon-3 {
+  background: linear-gradient(to left, #eecfe7, #f068d1);
+  top: 985px;
+  right: 0;
+  left: -11px;
+  transform: rotate(179deg) translate(-297%, 549%);
+  width: 90px;
+  height: 98px;
+  position: fixed;
+  z-index: 6;
+  transform-origin: bottom right;
+  box-shadow: -2px 2px 15px lightgrey;
+}
+
+.ribbon-3:before {
+  /* content: '';
+  position: absolute;
+  top: 67px;
+  left: 55px;
+  border-left: 73px solid transparent;
+  border-right: 27px solid transparent;
+  border-top: 142px solid transparent;
+  border-bottom: 40px solid #FFEB3B;
+  transform: rotate(389deg)translate(-71%, -51%); */
+  content: '';
+  position: absolute;
+  top: 81px;
+  left: -48px;
+  /* border-left: 73px solid transparent; */
+  border-right: 27px solid transparent;
+  border-top: 126px solid transparent;
+  border-bottom: 16px solid #7c1a6c;
+  transform: rotate(180deg) translate(-175%, -12%);
+}
+
+.ribbon-3:after {
+  content: '';
+  position: absolute;
+  top: -1px;
+  right: -97px;
+  border-left: 49.5px solid #eecfe7;
+  border-right: 49.5px solid transparent;
+  border-top: 49.5px solid transparent;
+  border-bottom: 49.5px solid transparent;
+}
